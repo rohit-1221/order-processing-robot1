@@ -157,7 +157,7 @@ Embed the robot screenshot to the receipt PDF file
     @{myfiles}=    Create List    ${IMG_FILE}:x=0,y=0
     # Add the files to the PDF
     Add Files To PDF    ${myfiles}    ${PDF_FILE}    ${True}
-    Close PDF    ${PDF_FILE}
+    #Close PDF    ${PDF_FILE}
 
 Get The Program Author Name From Our Vault
     Log To Console    Getting Secret from our Vault
