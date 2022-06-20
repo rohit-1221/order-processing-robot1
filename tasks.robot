@@ -24,7 +24,7 @@ ${orders_file}    ${CURDIR}${/}orders.csv
 ${zip_file}       ${output_folder}${/}pdf_archive.zip
 ${csv_url}        https://robotsparebinindustries.com/orders.csv
 
-*** Test Cases ***
+*** Tasks ***
 Order robots from RobotSpareBin Industries Inc
     Directory Cleanup
     Get The Program Author Name From Our Vault
